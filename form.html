@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <style>
+        div{
+            width: 50%;
+        }
+        input{
+          background-color: rgba(0, 0, 0, 0.014);
+        }
+        hr{
+          width: 50%;
+        }
+        fieldset{
+ background-color: aquamarine;
+        }
+    </style>
+  </head>
+  <body>
+    <center>
+    
+    <h1> Registration  </h1>
+    <h3><a href="">Gallery</a></h3> <h3><a href="./index.html">Resume</a></h3> 
+<br>
+     <hr>
+    <div>
+    <br />
+    <br />
+    <fieldset>
+      <legend>Registration</legend>
+
+      <form action="gellary.html">
+        <label> Firstname </label>
+        <input type="text" name="firstname" size="30" maxlength="10" placeholder="Enter your first Name"  required/> <br />
+        <br />
+        <label> Middlename: </label>
+        <input type="text" name="middlename" size="30" maxlength="10" placeholder="Enter your middle Name" required /> <br />
+        <br />
+        <label> Lastname: </label>
+        <input type="text" name="lastname" size="30" maxlength="10" placeholder="Enter your last Name"  required/ > <br />
+        <br />
+        <label> Phone : </label>
+
+        <input type="text" name="phone" size="30" maxlength="11" placeholder="Enter your phone number" required/> <br />
+        <br />
+
+        <label> Course : </label>
+        <select>
+          <option value="Course">Course</option>
+          <option value="web dev">web dev</option>
+          <option value="ghrapic D">ghrapic D</option>
+          <option value="moblie rep">moblie rep</option>
+         
+        </select>
+
+        <br />
+        <br />
+        <label> Gender : </label>
+
+        <label for="radio-male">
+          <input type="radio" name="male" value="radio-male" id="radio-male" /> Male </label
+        >
+        <label for="radio-female">
+          <input type="radio" name="female" value="radio-female" id="radio-female" />
+          Female </label
+        >
+        <label for="radio-other">
+          <input type="radio" name="other" value="radio-other" id="radio-other" /> Other
+        </label>
+        <br />
+        <br />
+
+     
+        Address
+        <br />
+        <textarea cols="80" rows="5" value="address"> </textarea>
+        <br />
+        <br />
+        Email:
+        <input type="email" id="email" name="email" /> <br />
+        <br />
+        <br />
+        Password:
+        <input type="Password" id="pass" name="pass" /> <br />
+        <br />
+        <br />
+        <input type="button" value="Submit" />
+      </form>
+    </fieldset>
+</div>
+</center>
+  </body>
+</html>
